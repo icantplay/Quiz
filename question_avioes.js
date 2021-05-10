@@ -36,6 +36,7 @@ const quiz = [
 
     {
         q: 'Durante a aterragem e a descolagem dos aviões, os telemóveis devem ser desligados porque:',
+        questionImage: 'https://www.meta-defense.fr/wp-content/uploads/2020/05/F-16-israel.jpg',
         options: ['podem interferir com os sistemas eletrónicos do avião','porque o piloto quer','para as pessoas não estarem distraidas','o telemóvel pode explodir'],
         answer: 0
 
