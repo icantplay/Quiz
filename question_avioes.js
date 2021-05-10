@@ -10,6 +10,7 @@ const quiz = [
 
     {
         q: 'O que é que transportou o primeiro balão de ar quente?',
+        questionImage: 'https://i2.wp.com/newsavia.com/wp-content/uploads/2016/07/bal%C3%A3o-ar_quente-900px.jpg?fit=900%2C592&ssl=1',
         options: ['Ovelhas','Patos','Galos','Todas as anteriores'],
         answer: 3
 
@@ -18,6 +19,7 @@ const quiz = [
 
     {
         q: 'Quanto tempo demora um F16 a percorrer Norte a Sul de Portugal?',
+        questionImage: 'https://www.meta-defense.fr/wp-content/uploads/2020/05/F-16-israel.jpg',
         options: ['2 horas','1 hora e 30 minutos','10 minutos',' 20 minutos'],
         answer: 3
 

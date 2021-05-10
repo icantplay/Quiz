@@ -11,6 +11,7 @@ const quiz = [
     {
         q: ' Qual dos comboios abaixo alcança maior velocidade?',
         options: ['VSOE','TGV'],
+        optionImages: {"VSOE": 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQORkex7FWdFI2k_f2HRLNRyTGg5Z1p4iL9cw&usqp=CAU', "TGV": 'https://www.eurail.com/content/dam/images/eurail/tgv_high-spped_train_france.adaptive.767.0.jpg'},
         answer: 1
 
 
@@ -18,6 +19,7 @@ const quiz = [
 
     {
         q: 'Na frança o TGV é considerado o comboio mais veloz?',
+        questionImage: 'https://media.giphy.com/media/l0Iy3KAFUA28TsKKk/giphy.gif',
         options: ['Verdadeiro','Falso'],
         answer: 0
 
@@ -26,6 +28,7 @@ const quiz = [
 
     {
         q: 'Se tu quiseres andar de Maglev quais destes Países deve visitar?',
+        questionImage: 'https://www.railjournal.com/wp-content/uploads/2019/10/China-HS-maglev-prototype.jpg',
         options: ['Alemanha','Japão','China'],
         answer: 2
 
