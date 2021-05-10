@@ -37,6 +37,7 @@ const quiz = [
 
     {
         q: 'Qual é o comboio que utiliza levitação magnética (não há contacto entre o comboio e a linha)?',
+        questionImage: 'https://china2brazil.com.br/wp-content/uploads/2021/01/trem-maglev-2.gif',
         options: [' VLT comboio ligeiro',' Maglev','ICE 3'],
         answer: 1
 
