@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head class>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=tkXiLhIu"></script>
         <title>Dinossauros</title>
         <meta name="viewport" content="width= device - width, initial-scale =1">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="home-box custom-box">
-            <h3>DINOSSAURO</h3>
+            <h3 class="categoria">DINOSSAURO</h3>
         </div>
         <div class="quiz-box custom-box">
             <div class="question-number">
@@ -15,6 +17,9 @@
             </div>
             <div class="question-text">
                 Alguns Dinossauros eram muito rápidos. Sabes qual era o Dinossauro que corria mais rápido?
+            </div>
+            <div class = "question-image">
+
             </div>
             <div class="option-container">
                 
@@ -24,13 +29,31 @@
                 <button type="button" class="btn" onclick="next()">PRÓXIMO</button>
             </div>
             <div class="answers-indicator">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                
             </div>
         </div>
+        <div class="result-box custom-box hide">
+            <h1>Resultado</h1>
+            <table class="table">
+                <tr>
+                    <td>Corretas</td>
+                    <td><span class="total-correct"></span></td>
+                </tr>
+                <tr>
+                    <td>Erradas</td>
+                    <td><span class="total-wrong"></span></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td><span class="total-score"></span></td>
+                </tr>
+            </table>
+            <button type="button" class="butn" onclick="premio()">PRÉMIO</button>
+
+        </div>
+    
     <script src="question_dinossauro.js"></script>
     <script src="app.js"></script>
+    
     </body>
 </html>

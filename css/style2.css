@@ -62,7 +62,9 @@ body {
     
    
 }
-
+.inglez {
+    text-decoration: none;
+}
 .categories .wrapper .categories-container .category img{
    height: 100%;
    width: 100%;

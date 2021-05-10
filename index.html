@@ -4,14 +4,62 @@
         <title>Quiz do Diogo</title>
         <meta name="viewport" content="width= device - width, initial-scale =1">
         <link rel="stylesheet" href="css/style.css">
+        <script src="app.js"></script>
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=tkXiLhIu"></script>
     </head>
 
     <body>
+        
         <div class="home-box custom-box">
-            <h3>Olá Diogo, Parabéns!</h3>
+            <h3>Olá Diogo, parabéns!</h3>
             <p>Temos algumas perguntas para ti, estás preparado?</p>
-            <a href="CategoryPage.html">Vamos Jogar!</a>
+           
+            <div class="hugo">
+                <a href="CategoryPage.html">Vamos jogar!</a> 
+            <button  class="play" onclick="togglePopup()">Como jogar?</button>
+            </div>
+            
+                
 
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">×</div>
+                  <h1>Explicação</h1>
+                  <p>
+                    <b>Objetivo:</b>
+                    <br>
+                    <br>
+                      Conseguir responder a 3 perguntas certas dos diversos temas propostos
+                    <br>
+                    <br>
+                    <br>
+                  
+                    <b>Prémio:</b>
+                    
+                    <br>
+                    <br>
+                    Caso consigas responder a 3 perguntas das 5 pedidas de forma correta terás a oportunidade de escolher um museu para ires visitar. Este museu terá os seguintes temas: Aviões, Astronomia, Comboios e Dinossauros.
+                    <br>
+                    <br>
+                    <br>
+                    <b>Como funciona o jogo:</b>
+                     
+                     <br>
+                     <br>
+                    Para iniciares o jogo terás de carregar no botão Começar no qual te irá aparecer os diversos temas propostos, basta carregares num dos temas e começa então o teu Quizz.
+                    Lembra-te que assim que carregares na opção que achas que está correta não a poderás alterar por isso têm cuidado com o que escolhes!
+                    Assim que fizeres a escolha da tua resposta irás conseguir ver logo se a resposta está certa ou errada.
+                    Quando acabares o Quizz da categoria escolhida poderás sempre volta-lo a repetir, ou nesse tema ou noutro.
+                    <br>
+                    <br>
+                    Boa sorte e diverte-te</p>
+                </div>
+              </div>
+               
         </div>
+            <video class="learn" controls>
+                <source src="Video/Meu_projeto.mp4" type="video/mp4">
+            </video>
     </body>
 </html>
