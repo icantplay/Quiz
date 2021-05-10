@@ -151,18 +151,18 @@ function premio(){
     
     wrongAnswers =attempt - correctAnswers;
     if (correctAnswers > wrongAnswers && categoria == "ASTRONOMIA") {
-        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao Centro Espacial Kennedy na Florida </h2><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/rYY0p0199fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao Centro Espacial Kennedy na Florida </h2><button class="voltar" onclick="homePage()">VOLTAR AO INÍCIO</button><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/rYY0p0199fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         $(".result-box").css({"margin-left":"280px", "margin-right":"0px"});
     }
     else if(correctAnswers > attempt-correctAnswers && categoria == "AVIÕES"){
-        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao Aviation museum washington</h2><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/zblzaW2aeMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao Aviation museum washington</h2><button class="voltar" onclick="homePage()">VOLTAR AO INÍCIO</button><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/zblzaW2aeMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         $(".result-box").css({"margin-left":"280px", "margin-right":"0px"});
     }
     else if(correctAnswers > wrongAnswers && categoria == "COMBOIOS"){
-        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma Viagem ao Museu de transportes de Londres </h2><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/Ip-WfVdn1yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma Viagem ao Museu de transportes de Londres </h2><button class="voltar" onclick="homePage()">VOLTAR AO INÍCIO</button><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/Ip-WfVdn1yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         $(".result-box").css({"margin-left":"280px", "margin-right":"0px"});
     }else if (correctAnswers > wrongAnswers && categoria == "DINOSSAURO") {
-        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao  Museu de História Natural de Nova Iorque </h2><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/y6Dyhi-MVag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        resultBox.innerHTML = '<h2 class="Premio"> Parabéns ganhaste uma viagem ao  Museu de História Natural de Nova Iorque </h2><button class="voltar" onclick="homePage()">VOLTAR AO INÍCIO</button><iframe class="video" width="850" height="650" src="https://www.youtube.com/embed/y6Dyhi-MVag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         $(".result-box").css({"margin-left":"280px", "margin-right":"0px"});
     } else {
         resultBox.innerHTML = '<div class="try"> NÃO TENS PRÉMIO DIOGO </div> <button class="manel" onclick="homePage()"> TENTAR OUTRA VEZ </button> <img src="https://i.pinimg.com/originals/af/80/04/af8004c810a9064ca32e3659329c4be8.gif" width="700 height="700">'
@@ -179,6 +179,8 @@ function togglePopup(){
 function homePage(){
     window.location.href = "index.html";
 }
+
+
 
 window.onload = function(){
     setAvailableQuestions();

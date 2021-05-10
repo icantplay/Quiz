@@ -425,3 +425,20 @@ body {
  margin-bottom: 30px;
  
 }
+.voltar{
+    padding: 15px 15px 15px 15px;
+    border-radius: 14px;
+    background-color:#87cefa; 
+    border: none;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.voltar:hover{
+    background-color: #87cefa; /* Green */
+    color: white;
+}
