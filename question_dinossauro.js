@@ -29,7 +29,7 @@ const quiz = [
 
     {
         q: 'O Tyrannosaurus Rex era o maior dinossauro carnívoro, sabes qual era a altura e o comprimento que podia ter?',
-        questionImage: 'Imagens/T REx.jpg',
+        questionImage: 'https://i.pinimg.com/originals/34/be/96/34be963687b7ac2278d36727c2751fac.gif',
         options: ['2 m de altura e 6 m de comprimento','4 m de altura e 12 m de comprimento','6 m de altura de 30 m de comprimento'],
         answer: 1
 

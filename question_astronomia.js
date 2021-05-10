@@ -11,7 +11,7 @@ const quiz = [
 
     {
         q: 'Quais são os dois tipos de planetas do nosso sistema solar?',
-        questionImage: 'https://super.abril.com.br/wp-content/uploads/2019/07/si_382_planetas.png?w=1024',
+        questionImage: 'http://1.bp.blogspot.com/-q1jagPTS9To/VOuMdsuc5QI/AAAAAAAAMNk/5ougn6b3xM8/s1600/Planetas%2B3.gif',
         options: ['Jovianos e Gasosos','Gasosos e Sólidos','Telúricos e Sólidos'],
         answer: 1
 

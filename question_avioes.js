@@ -10,7 +10,7 @@ const quiz = [
 
     {
         q: 'O que é que transportou o primeiro balão de ar quente?',
-        questionImage: 'https://i2.wp.com/newsavia.com/wp-content/uploads/2016/07/bal%C3%A3o-ar_quente-900px.jpg?fit=900%2C592&ssl=1',
+        questionImage: 'http://1.bp.blogspot.com/-hWd7rbZeiGk/VDZ-_-578jI/AAAAAAAAmdo/Xy3CMpq-trg/s1600/014520a80c0f89b7650b43fc9331ecfa.gif',
         options: ['Ovelhas','Patos','Galos','Todas as anteriores'],
         answer: 3
 
